@@ -1,0 +1,13 @@
+call _startup
+set directory '/Users/Genecentrix/Desktop/mock_docking_dir'
+read pdb '1www'
+delete a_1.!3
+convertObject a_1. yes yes yes
+dock2SetupReceptor "DOCK1" a_1.* no "none"
+if( yes & currentDockProj.l_readyReceptor ) dock5CalcMaps "DOCK1" 0.5 4.0 no
+read table 'tmp.csv' header
+s_out = Path()
+S_out = Name( model, "DOCKING" )
+dockMakeInputTable currentDockProj.data[1] Name( tmp table )
+dockInputTable Name( tmp table ) 10. 10
+quit

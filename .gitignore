@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+all_ideas/docking_pipeline/docking_files/*.csv

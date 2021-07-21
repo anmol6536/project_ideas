@@ -1,0 +1,26 @@
+call _startup
+
+HELP = """
+
+  $P [ <options> ] [ <working_directory> <docking_project> <input_file> <output_file> ]
+    reads files and produces output.
+  Options:
+    -o output file name
+  Example:
+"""
+if Getarg(help) quit HELP
+files = Getarg(list,delete)
+set directory files[1]
+
+s_projName = String(files[2])
+s_objFileName = String(files[3])
+s_listName = String(files[4])
+
+dockUpdateGlobals s_projName -1
+
+
+scanMakeHitList s_projName Name(Name( s_objFileName ),simple) 1 ==2 no 1 ==1 no 
+
+print s_listName
+write table separator="," header HITLIST s_listName
+quit

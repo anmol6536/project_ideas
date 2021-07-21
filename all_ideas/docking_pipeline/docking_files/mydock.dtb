@@ -1,0 +1,187 @@
+#>I mydock.CN_I_active
+  0
+#>R mydock.CN_R_maxDist
+  0.
+#>R mydock.CN_R_minDist
+  0.
+#>R mydock.CN_R_weight
+  0.
+#>S mydock.CN_S_atom
+
+#>S mydock.CN_S_dest
+
+#>S mydock.CN_S_type
+
+#>R mydock.R_4DscoreOffsets
+  0.
+#>R mydock.R_boxDim
+  3.616
+  -14.0198
+  -31.1288
+  32.0946
+  8.64087
+  0.714074
+#>R mydock.R_ligInitPosition
+  16.9324
+  -1.26424
+  -15.6685
+  1.
+  0.
+  0.
+  0.
+  1.
+  0.
+#>R mydock.R_scoreWeights
+  0.
+  1.
+  0.6
+  0.66
+  2.53
+  0.67
+  0.75
+  0.6
+  0.
+#>i mydock.i_dbSize
+ 1
+#>i mydock.i_maxHdonors
+ 5
+#>i mydock.i_maxLigSize
+ 500
+#>i mydock.i_maxNO
+ 10
+#>i mydock.i_maxTorsion
+ 10
+#>i mydock.i_minLigSize
+ 100
+#>i mydock.i_mnconf
+ 40
+#>i mydock.i_mnhighEnergy
+ 9999
+#>i mydock.i_mnreject
+ 10
+#>i mydock.i_mnvisits
+ 10
+#>i mydock.i_ringFlexLevel
+ 2
+#>l mydock.l_assignCharges
+  yes
+#>l mydock.l_buildHydrogens
+  yes
+#>l mydock.l_dbondCisTrans
+  no
+#>l mydock.l_enhancedBorn
+  no
+#>l mydock.l_fixOmegas
+  yes
+#>l mydock.l_internalHB
+  yes
+#>l mydock.l_membraneScore
+  no
+#>l mydock.l_neutralAcidsMol
+  no
+#>l mydock.l_protProt
+  no
+#>l mydock.l_readyLigand
+  no
+#>l mydock.l_readyMaps
+  yes
+#>l mydock.l_readyReceptor
+  yes
+#>l mydock.l_samplePyramid
+  no
+#>l mydock.l_sampleRacemic
+  no
+#>l mydock.l_softLigand
+  yes
+#>l mydock.l_useBornScore
+  yes
+#>r mydock.r_DpH
+  2.
+#>r mydock.r_GRID_maxVw
+  4.
+#>r mydock.r_ScoreThreshold
+  -32.
+#>r mydock.r_Score_maxVw
+  1.
+#>r mydock.r_densityWeight
+  0.
+#>r mydock.r_dockScanVersion
+  4.6
+#>r mydock.r_maxFFen
+  500.
+#>r mydock.r_maxLogP
+  5.
+#>r mydock.r_maxPk
+  5.
+#>r mydock.r_mcShake
+  4.
+#>r mydock.r_mfScoreThreshold
+  999.
+#>r mydock.r_minLogP
+  0.
+#>r mydock.r_minPk
+  0.
+#>r mydock.r_pH
+  7.
+#>r mydock.r_plRsMiss
+  0.
+#>r mydock.r_temperature
+  1000.
+#>r mydock.r_thRstrnt
+  -1.
+#>r mydock.r_thTautomer
+  -1.
+#>r mydock.r_vicinity
+  2.
+#>s mydock.s_bindPatchRes
+a_mydock_rec.x/^Q289:^V305,^W315,^F329,^E331:^A337,^E339,^V341:^R347,^L361
+#>s mydock.s_chargeGroups
+none
+#>s mydock.s_clrLig
+default
+#>s mydock.s_clrRec
+grey
+#>s mydock.s_clrSite
+default pink
+#>s mydock.s_covModResAt
+none
+#>s mydock.s_covRxn
+none
+#>s mydock.s_dbFile
+NOTSET
+#>s mydock.s_dbIndex
+NOTSET
+#>s mydock.s_dbType
+mol 2D
+#>s mydock.s_dspLig
+xstick
+#>s mydock.s_dspRec
+wire
+#>s mydock.s_dspSite
+xstick
+#>s mydock.s_grid4DFlex
+none
+#>s mydock.s_ligMol
+2:2
+#>s mydock.s_ligName
+deflig
+#>s mydock.s_optSC
+a_none
+#>s mydock.s_recExplicitObj
+none
+#>s mydock.s_recMol
+1:1
+#>s mydock.s_recName
+mydock_rec
+#>s mydock.s_selLig
+a_*.*//*
+#>s mydock.s_selRec
+a_*.*//*
+#>s mydock.s_selSite
+a_*.*//!M5
+#>s mydock.s_templateMatch
+substructure
+#>s mydock.s_templateObj
+none
+#>s mydock.s_xrObj
+none
